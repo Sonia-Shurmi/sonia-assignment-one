@@ -11,6 +11,9 @@
     font-weight: normal;
     font-style: normal;
   }
+  body{
+    margin: 0;
+  }
   .container{
     max-width: 1140px;
     margin: 0 auto;
@@ -37,8 +40,26 @@ a{
   .navigation-bar{
     display: flex;
     justify-content: space-between;
+    padding: 50px 0;
   }
   .logo{
     font-size: 35px;
     font-weight: bold;
+  }
+  /* hero area */
+  .h-screen{
+    min-height: 100vh;
+  }
+  .bg-hero{
+    background-image: url(../assets/Hero-bg.png);
+    background-position: center;
+  }
+  .hero-area{
+    padding: 0px 100px;
+    text-align: center;
+  }
+  .hero-title{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 30px;
   }
