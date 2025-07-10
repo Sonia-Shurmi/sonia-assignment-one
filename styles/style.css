@@ -11,3 +11,34 @@
     font-weight: normal;
     font-style: normal;
   }
+  .container{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+a{
+    text-decoration: none;
+}
+.color-primary{
+    color: #4E47FF;
+}
+.bg-primary{
+    background-color: #4E47FF;
+}
+.btn-primary{
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #4E47FF;
+    padding: 15px 30px;
+}
+  /* header area */
+  .navigation-bar{
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo{
+    font-size: 35px;
+    font-weight: bold;
+  }
