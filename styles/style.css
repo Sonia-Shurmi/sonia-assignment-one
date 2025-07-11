@@ -53,6 +53,9 @@ li{
     background-color: #4E47FF;
     padding: 15px 30px;
 }
+.btn-primary:hover{
+    background-color: #FED500;
+}
   /* header area */
   .navigation-bar{
     display: flex;
@@ -73,7 +76,7 @@ li{
     background-position: center;
   }
   .hero-area{
-    padding: 0px 100px;
+    padding: 50px 100px 0px;
     text-align: center;
   }
   .hero-title{
@@ -96,7 +99,7 @@ li{
   .action-text h2,.section-title{
     font-size: 42px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
   .action-text p{
     font-size: 24px;
@@ -138,6 +141,30 @@ li{
     padding: 30px 20px;
     border-radius: 10px;
   }
+  .stars{
+    margin-bottom: 20px;
+  }
+  .title{
+    margin-bottom: 15px;
+  }
+  .client-bio{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .client-bio img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  .name{
+    font-weight: bold;
+    color: #757575;
+  }
+  .date{
+    color: rgba(0, 0, 0, 0.5);
+  }
   /* focus area */
   .focus-area-bg{
     background: #fff;
@@ -148,6 +175,7 @@ li{
   }
   .focus-content p{
     margin-bottom: 25px;
+    color: rgba(0, 0, 0, 0.5);
   }
   .focus-content button{
     margin-bottom: 50px;
@@ -181,11 +209,18 @@ li{
   .single-input input,
   .single-input textarea{
     
-    padding: 10px 0px ;
+    padding: 15px 0px 15px 15px ;
     margin-bottom: 20px;
     width: 100%;
-
+    border: 1px solid #F2EDED;
+    border-radius: 8px;
+    padding-left: 15px;
   }
+  .single-input input:focus,
+  .single-input textarea:focus {
+    outline: none;
+    border: none;
+}
   /* footer */
   .footer-area{
     text-align: center;
