@@ -17,7 +17,7 @@
   }
   body{
     margin: 0;
-    background: #F5F8FF;
+    background-color: #F5F8FF;
   }
  .text-center{
     text-align: center;
@@ -28,6 +28,9 @@
   }
 a{
     text-decoration: none;
+}
+li{
+    list-style: none;
 }
 .color-primary{
     color: #4E47FF;
@@ -65,6 +68,7 @@ a{
     min-height: 100vh;
   }
   .bg-hero{
+    background-color: rgba(78, 71, 255, 0.1);
     background-image: url(../assets/Hero-bg.png);
     background-position: center;
   }
@@ -133,4 +137,76 @@ a{
     border: 1px solid #F2EDED;
     padding: 30px 20px;
     border-radius: 10px;
+  }
+  /* focus area */
+  .focus-area-bg{
+    background: #fff;
+    border-radius: 20px;
+  }
+  .focus-content{
+    padding: 80px 0;
+  }
+  .focus-content p{
+    margin-bottom: 25px;
+  }
+  .focus-content button{
+    margin-bottom: 50px;
+  }
+  .focus-content img{
+    border-radius: 15px;
+    margin-top: 30px;
+    display: block;
+    margin: 0 auto;
+  }
+  /* Contact Area */
+  .contact-area {
+    padding: 100px 0 80px 0;
+  }
+  .contact-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-field{
+    width: 500px;
+  }
+  .contact-content h1{
+    font-size: 97px;
+    font-weight: bold;
+  }
+  .single-input label{
+    display: block;
+    margin-bottom: 10px;
+  }
+  .single-input input,
+  .single-input textarea{
+    
+    padding: 10px 0px ;
+    margin-bottom: 20px;
+    width: 100%;
+
+  }
+  /* footer */
+  .footer-area{
+    text-align: center;
+    background: #fff;
+    padding: 80px 0;
+  }
+  .footer-logo{
+    font-size: 100px;
+    margin-bottom: 20px;
+  }
+  .footer-content{
+    max-width: 500px;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .footer-nav li{
+    display: inline-block;
+    padding: 15px 10px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+  }
+  .footer-nav li a{
+    color: rgba(0, 0, 0, 0.5);
   }
